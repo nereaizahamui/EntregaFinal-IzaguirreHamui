@@ -1,0 +1,358 @@
+/*general*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    text-decoration:none;
+    color: #9CA3DB;
+}
+.bg-body-tertiary{
+    background-color: #454B66;
+    color: #677db7;
+}
+footer{
+    background-color:#454B66;
+    height: 20vh;
+    text-align: right;
+}
+.color1{
+    color:#9CA3DB;
+}
+.color2{
+    color: #677db7;
+}
+.color3{
+    color:#454B66;
+}
+.negrita{
+    font-weight:bold;
+}
+.italic{
+    font-weight: lighter;
+}
+.letra{
+    font-family: 'Raleway', sans-serif;
+}
+.centrado{
+    text-align: center;
+}
+a:hover{
+    font-weight: bold;
+    color:#454B66
+}
+header{
+    position: sticky;
+    top: 0px;
+    }
+
+/*index*/
+.IndexInicio{
+    width: 100%;
+    height: 40%;
+    background-image: url(../img/cara.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.IndexFoto1{
+    width: 50%;
+}
+.IndexTexto{
+    padding: 2% 10%;
+    font-size: 1.5rem;
+}
+.IndexContenedorServicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+    background-color: #ededed;
+    padding-top: 30px;
+}
+.IndexBoxServicios{
+    height: 120px;
+    width: 200px;
+    background-image: url(../img/Promos.png);
+    border-radius: 10%;
+    margin: 20px;
+    padding-top: 40px;
+    background-position: center;
+    background-size: cover;
+}
+.IndexDivision{
+    background-color:#677db7;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: larger;
+}
+.IndexTextoSpa{
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+}
+#IndexContainerPromos{
+    padding-top: 5px;
+    display: grid;
+    grid-template-areas: 
+    "spas spa1 spa2"
+    "spas spa3 otros";
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 250px 250px;
+    text-align: center;
+    gap: 5px;
+    justify-content: center;
+}
+#IndexSpas{
+    grid-area: spas;
+    background-color: #9CA3DB;
+    color: #454B66;
+    padding-top:55%;
+}
+#IndexSpa1{
+    grid-area: spa1;
+    background-image: url(../img/spa2.jpg);
+    padding-top: 22%;
+    background-position: center;
+    background-size: cover;
+}
+#IndexSpa2{
+    grid-area: spa2;
+    background-image: url(../img/spa1.jpg);
+    padding-top: 22%;
+    background-position: center;
+    background-size: cover;
+}
+#IndexSpa3{
+    grid-area: spa3;
+    background-image: url(../img/spa4.jpg);
+    padding-top: 22%;
+    background-position: center;
+    background-size: cover;
+}
+#IndexOtrosSpas{
+    grid-area: otros;
+    background-image: url(../img/spa3.jpg);
+    padding-top: 22%;
+    background-position: center;
+    background-size: cover;
+}
+.IndexTituloTurnos{
+    margin-top: 35px;
+}
+.IndexContenedorInfo{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #ededed;
+}
+.IndexIMGTurnos{
+    height: 50px;
+    width: 50px;
+}
+.IndexCuadradoHorario{
+    height: 10%;
+    margin-top: 10px;
+    border-radius: 10%;   
+}
+.instagram{
+    text-decoration: none;
+    color: #677db7;
+    text-align: center;
+}
+@media screen and (max-width:800px){
+    .IndexTexto{
+        font-size: 120%;
+    }}
+@media screen and (max-width:500px){
+    .IndexTexto{
+        font-size: 1rem;
+}}
+@media screen and (max-width:500px){
+    .IndexContenedorInfo{
+        display: inline;
+}}
+@media screen and (max-width:500px){
+    .IndexContainerPromos{
+        grid-template-columns: 100%;
+        grid-template-rows: 25px;
+}}
+@media screen and (max-width:800px){
+    .IndexContenedorServicios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        background-color:#ededed;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+    .IndexBoxServicios{
+        height: 40px;
+        width: 100px;
+        background-image: url(../img/Promos.png);
+        border-radius: 10%;
+        margin: 20px;
+        padding-top: 4px;
+        background-position: center;
+        background-size: cover;
+    }}
+@media  screen and (max-width:500px) {
+    #IndexContainerPromos{
+        margin-top: 0px;
+        display: grid;
+        grid-template-areas: 
+        "spas spa2"
+        "spa1 spa3"
+        "otros otros";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        text-align: center;
+        gap: 5px;
+        justify-content: center;
+    }
+    #IndexSpas{
+        padding-top:10%;
+    }
+    .IndexTurnos{
+        padding-top: 130px;
+    }}
+/*Nosotros-Historia*/ 
+.HistoriaPrincipal{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #9CA3DB;
+    border-radius: 1%;
+}
+.HistoriaFotoFrente{
+    width: 80%;
+    height: 100%;
+}
+.HistoriaTexto{
+    padding-top: 50px;
+}
+.HistoriaTitulos{
+    background-color:  #ededed;
+    padding: 3% 3%;
+}
+.HistoriaContendorValores{
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-around;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #9CA3DB;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1%;
+}
+.HistoriaCuboValores{
+    height: 10%;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.HistoriaIMGValores{
+    height: 50px;
+    width: 50px;
+}
+@media screen and (max-width:800px){
+    .HistoriaFotoFrente{
+        width: 200%;
+    }
+    .HistoriaContendorValores{
+        display: inline;
+    }}
+/*servicios*/
+.ServiciosTitulo{
+    margin-top: 3%;
+    margin-bottom: 10px;
+    background-color: #ededed;
+}
+.ServiciosLista{
+    margin: 2% 4%;
+    list-style: none;
+}
+.ServiciosConteiner{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.ServiciosTituloPreguntas{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: #ededed;
+}
+/*Consultorio*/
+.consultoriotituloalquiler{
+    background-color: #ededed;
+    height: 100px;
+    padding-top: 35px;
+}   
+.consultoriotextoalquiler{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.consultorioofrecemos{
+    margin-top: 30px;
+}
+.consultoriocontenedoralquiler{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+}
+.consultoriocuadradoalquiler{
+    width: 20%;
+    height: 10%;
+    margin-top: 10px;
+}
+.consultoriobotoncontacto{
+    padding: 10px;
+    text-decoration: none;
+    color:#9CA3DB;
+    background-color: #454B66;
+    border-radius: 10%;
+    font-weight: bold;
+}
+#consultoriocontainerconsultorios{
+    display: grid;
+    grid-template-areas:
+    "texto1 foto1 foto2 foto3"
+    "texto1 foto4 foto4 foto5"
+    "texto1 foto4 foto4 foto6";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15rem 15rem 15rem;
+    margin-top: 30px;
+}
+#Consultoriotexto1{
+    grid-area: texto1;
+    height: 300px;
+    text-align: center;
+    padding-top: 250px;
+}
+.Consultoriofotocons{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+#consultoriofoto1{
+    grid-area: foto1;
+}
+#consultoriofoto2{
+    grid-area: foto2;
+}
+#consultoriofoto3{
+    grid-area: foto3;
+}
+#consultoriofoto4{
+    grid-area: foto4;
+}
+#consultoriofoto5{
+    grid-area: foto5;
+}
+#consultoriofoto6{
+    grid-area: foto6;
+}
