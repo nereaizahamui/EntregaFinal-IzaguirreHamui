@@ -233,7 +233,8 @@ header{
     height: 100%;
 }
 .HistoriaTexto{
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-right: 3%;
 }
 .HistoriaTitulos{
     background-color:  #ededed;
@@ -253,19 +254,22 @@ header{
 .HistoriaCuboValores{
     margin-top: 10px;
     border-radius: 10%;
-    margin-left: 10px;
-    width: 20rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .HistoriaIMGValores{
     height: 50px;
     width: 50px;
 }
 @media screen and (max-width:800px){
-    .HistoriaFotoFrente{
-        width: 200%;
+    .HistoriaTexto{
+        padding: 4%;
+    }
+    .HistoriaPrincipal{
+        display: inline-block;
     }
     .HistoriaContendorValores{
-        display: inline;
+        display:inline-block;
     }}
 /*servicios*/
 .ServiciosTitulo{
