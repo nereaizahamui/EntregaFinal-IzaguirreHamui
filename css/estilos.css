@@ -164,21 +164,7 @@ header{
 @media screen and (max-width:800px){
     .IndexTexto{
         font-size: 120%;
-    }}
-@media screen and (max-width:500px){
-    .IndexTexto{
-        font-size: 1rem;
-}}
-@media screen and (max-width:500px){
-    .IndexContenedorInfo{
-        display: inline;
-}}
-@media screen and (max-width:500px){
-    .IndexContainerPromos{
-        grid-template-columns: 100%;
-        grid-template-rows: 25px;
-}}
-@media screen and (max-width:800px){
+    }
     .IndexContenedorServicios{
         display: flex;
         flex-wrap: wrap;
@@ -198,8 +184,7 @@ header{
         padding-top: 4px;
         background-position: center;
         background-size: cover;
-    }}
-@media  screen and (max-width:500px) {
+    }
     #IndexContainerPromos{
         margin-top: 0px;
         display: grid;
@@ -213,12 +198,30 @@ header{
         gap: 5px;
         justify-content: center;
     }
+    .IndexTurnos{
+        padding-top: 190px;
+    }
     #IndexSpas{
-        padding-top:10%;
+        padding-top:20%;
+    }}
+@media screen and (max-width:500px){
+    .IndexTexto{
+        font-size: 1rem;}
+    .IndexContenedorInfo{
+            display: inline;
+    }
+    .IndexContainerPromos{
+        grid-template-columns: 100%;
+        grid-template-rows: 25px;
     }
     .IndexTurnos{
-        padding-top: 130px;
-    }}
+        padding-top: 120px;
+    }
+    .IndexDivision{
+        margin-bottom: 0px;
+    }
+}
+
 /*Nosotros-Historia*/ 
 .HistoriaPrincipal{
     margin-top: 30px;
