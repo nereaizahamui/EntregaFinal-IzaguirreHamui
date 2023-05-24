@@ -13,8 +13,9 @@
 }
 footer{
     background-color:#454B66;
-    height: 20vh;
-    text-align: right;
+    height: 15vh;
+    padding-top: 4%;
+    
 }
 .color1{
     color:#9CA3DB;
@@ -85,6 +86,7 @@ header{
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: larger;
+    font-weight: 500;
 }
 .IndexTextoSpa{
     text-decoration: none;
