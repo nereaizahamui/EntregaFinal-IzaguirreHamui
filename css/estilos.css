@@ -13,9 +13,7 @@
 }
 footer{
     background-color:#454B66;
-    height: 20vh;
-    padding-top: 3%;
-    
+    height: 10vh;
 }
 .color1{
     color:#9CA3DB;
@@ -46,7 +44,10 @@ header{
     position: sticky;
     top: 0px;
     }
-
+nav{
+    color: red;
+    background-color: yellow;
+}
 /*index*/
 .IndexInicio{
     width: 100%;
