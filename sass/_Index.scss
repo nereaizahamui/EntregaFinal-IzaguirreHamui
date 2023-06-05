@@ -4,10 +4,11 @@
     background-image: url(../img/cara.jpg);
     background-position: center;
     background-size: cover;
+    .IndexFoto1{
+        width: 50%;
+    }
 }
-.IndexFoto1{
-    width: 50%;
-}
+
 .IndexTexto{
     padding: 2% 10%;
     font-size: 1.5rem;
@@ -20,17 +21,18 @@
     font-size: 150%;
     background-color: #ededed;
     padding-top: 30px;
+    .IndexBoxServicios{
+        height: 120px;
+        width: 200px;
+        background-image: url(../img/Promos.png);
+        border-radius: 10%;
+        margin: 20px;
+        padding-top: 40px;
+        background-position: center;
+        background-size: cover;
+    }
 }
-.IndexBoxServicios{
-    height: 120px;
-    width: 200px;
-    background-image: url(../img/Promos.png);
-    border-radius: 10%;
-    margin: 20px;
-    padding-top: 40px;
-    background-position: center;
-    background-size: cover;
-}
+
 .IndexDivision{
     background-color:#677db7;
     padding-top: 1%;
@@ -38,11 +40,7 @@
     font-size: larger;
     font-weight: 500;
 }
-.IndexTextoSpa{
-    text-decoration: none;
-    color: white;
-    font-size: 130%;
-}
+
 #IndexContainerPromos{
     padding-top: 5px;
     display: grid;
@@ -54,41 +52,48 @@
     text-align: center;
     gap: 5px;
     justify-content: center;
+    #IndexSpas{
+        grid-area: spas;
+        background-color: #9CA3DB;
+        color: #454B66;
+        padding-top:55%;
+    }
+    #IndexSpa1{
+        grid-area: spa1;
+        background-image: url(../img/spa2.jpg);
+        padding-top: 22%;
+        background-position: center;
+        background-size: cover;
+    }
+    #IndexSpa2{
+        grid-area: spa2;
+        background-image: url(../img/spa1.jpg);
+        padding-top: 22%;
+        background-position: center;
+        background-size: cover;
+    }
+    #IndexSpa3{
+        grid-area: spa3;
+        background-image: url(../img/spa4.jpg);
+        padding-top: 22%;
+        background-position: center;
+        background-size: cover;
+    }
+    #IndexOtrosSpas{
+        grid-area: otros;
+        background-image: url(../img/spa3.jpg);
+        padding-top: 22%;
+        background-position: center;
+        background-size: cover;
+    }
+    .IndexTextoSpa{
+        text-decoration: none;
+        color: white;
+        font-size: 130%;
+    }
 }
-#IndexSpas{
-    grid-area: spas;
-    background-color: #9CA3DB;
-    color: #454B66;
-    padding-top:55%;
-}
-#IndexSpa1{
-    grid-area: spa1;
-    background-image: url(../img/spa2.jpg);
-    padding-top: 22%;
-    background-position: center;
-    background-size: cover;
-}
-#IndexSpa2{
-    grid-area: spa2;
-    background-image: url(../img/spa1.jpg);
-    padding-top: 22%;
-    background-position: center;
-    background-size: cover;
-}
-#IndexSpa3{
-    grid-area: spa3;
-    background-image: url(../img/spa4.jpg);
-    padding-top: 22%;
-    background-position: center;
-    background-size: cover;
-}
-#IndexOtrosSpas{
-    grid-area: otros;
-    background-image: url(../img/spa3.jpg);
-    padding-top: 22%;
-    background-position: center;
-    background-size: cover;
-}
+
+
 .IndexTituloTurnos{
     margin-top: 35px;
 }
@@ -112,4 +117,64 @@
     text-decoration: none;
     color: #677db7;
     text-align: center;
+}
+@media screen and (max-width:800px){
+    .IndexTexto{
+        font-size: 120%;
+    }
+    .IndexContenedorServicios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        background-color:#ededed;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+    .IndexBoxServicios{
+        height: 40px;
+        width: 100px;
+        background-image: url(../img/Promos.png);
+        border-radius: 10%;
+        margin: 20px;
+        padding-top: 4px;
+        background-position: center;
+        background-size: cover;
+    }
+    #IndexContainerPromos{
+        margin-top: 0px;
+        display: grid;
+        grid-template-areas: 
+        "spas spa2"
+        "spa1 spa3"
+        "otros otros";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        text-align: center;
+        gap: 5px;
+        justify-content: center;
+    }
+    .IndexTurnos{
+        padding-top: 190px;
+    }
+    #IndexSpas{
+        padding-top:20%;
+    }}
+@media screen and (max-width:500px){
+    .IndexTexto{
+        font-size: 1rem;}
+    .IndexContenedorInfo{
+            display: inline;
+    }
+    .IndexContainerPromos{
+        grid-template-columns: 100%;
+        grid-template-rows: 25px;
+    }
+    .IndexTurnos{
+        padding-top: 120px;
+    }
+    .IndexDivision{
+        margin-bottom: 0px;
+    }
 }

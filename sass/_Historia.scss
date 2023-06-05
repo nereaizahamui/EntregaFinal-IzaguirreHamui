@@ -1,0 +1,52 @@
+.HistoriaPrincipal{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #9CA3DB;
+    border-radius: 1%;
+    .HistoriaFotoFrente{
+        width: 80%;
+        height: 100%;
+    }
+    .HistoriaTexto{
+        padding-top: 100px;
+        padding-right: 3%;
+    }
+}
+.HistoriaTitulos{
+    background-color:  #ededed;
+    padding: 2% 2%;
+}
+.HistoriaContendorValores{
+    display: flex;
+    padding-top: 10px;
+    justify-content:space-between;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #9CA3DB;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 1%;
+    .HistoriaCuboValores{
+        margin-top: 10px;
+        border-radius: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+        .HistoriaIMGValores{
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
+@media screen and (max-width:800px){
+    .HistoriaTexto{
+        padding: 4%;
+    }
+    .HistoriaPrincipal{
+        display: inline-block;
+    }
+    .HistoriaContendorValores{
+        display:inline-block;
+    }}
+    

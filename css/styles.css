@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  text-decoration: none;
+  color: #9CA3DB;
+}
+
+.bg-body-tertiary {
+  background-color: #454B66;
+  color: #677db7;
+}
+
+footer {
+  background-color: #454B66;
+  height: 10vh;
+}
+
+.color1 {
+  color: #9CA3DB;
+}
+
+.color2 {
+  color: #677db7;
+}
+
+.color3 {
+  color: #454B66;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: lighter;
+}
+
+.letra {
+  font-family: "Raleway", sans-serif;
+}
+
+.centrado {
+  text-align: center;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #454B66;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+.menu {
+  text-decoration: none;
+  color: #9CA3DB;
+}
+
+.bg-body-tertiary {
+  background-color: #454B66;
+  color: #677db7;
+}
+
+footer {
+  background-color: #454B66;
+  height: 10vh;
+}
+
+.color1 {
+  color: #9CA3DB;
+}
+
+.color2 {
+  color: #677db7;
+}
+
+.color3 {
+  color: #454B66;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: lighter;
+}
+
+.letra {
+  font-family: "Raleway", sans-serif;
+}
+
+.centrado {
+  text-align: center;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #454B66;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+.IndexInicio {
+  width: 100%;
+  height: 40%;
+  background-image: url(../img/cara.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.IndexInicio .IndexFoto1 {
+  width: 50%;
+}
+
+.IndexTexto {
+  padding: 2% 10%;
+  font-size: 1.5rem;
+}
+
+.IndexContenedorServicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 150%;
+  background-color: #ededed;
+  padding-top: 30px;
+}
+.IndexContenedorServicios .IndexBoxServicios {
+  height: 120px;
+  width: 200px;
+  background-image: url(../img/Promos.png);
+  border-radius: 10%;
+  margin: 20px;
+  padding-top: 40px;
+  background-position: center;
+  background-size: cover;
+}
+
+.IndexDivision {
+  background-color: #677db7;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: larger;
+  font-weight: 500;
+}
+
+#IndexContainerPromos {
+  padding-top: 5px;
+  display: grid;
+  grid-template-areas: "spas spa1 spa2" "spas spa3 otros";
+  grid-template-columns: 20% 20% 20%;
+  grid-template-rows: 250px 250px;
+  text-align: center;
+  gap: 5px;
+  justify-content: center;
+}
+#IndexContainerPromos #IndexSpas {
+  grid-area: spas;
+  background-color: #9CA3DB;
+  color: #454B66;
+  padding-top: 55%;
+}
+#IndexContainerPromos #IndexSpa1 {
+  grid-area: spa1;
+  background-image: url(../img/spa2.jpg);
+  padding-top: 22%;
+  background-position: center;
+  background-size: cover;
+}
+#IndexContainerPromos #IndexSpa2 {
+  grid-area: spa2;
+  background-image: url(../img/spa1.jpg);
+  padding-top: 22%;
+  background-position: center;
+  background-size: cover;
+}
+#IndexContainerPromos #IndexSpa3 {
+  grid-area: spa3;
+  background-image: url(../img/spa4.jpg);
+  padding-top: 22%;
+  background-position: center;
+  background-size: cover;
+}
+#IndexContainerPromos #IndexOtrosSpas {
+  grid-area: otros;
+  background-image: url(../img/spa3.jpg);
+  padding-top: 22%;
+  background-position: center;
+  background-size: cover;
+}
+#IndexContainerPromos .IndexTextoSpa {
+  text-decoration: none;
+  color: white;
+  font-size: 130%;
+}
+
+.IndexTituloTurnos {
+  margin-top: 35px;
+}
+
+.IndexContenedorInfo {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-around;
+  margin-top: 15px;
+  background-color: #ededed;
+}
+
+.IndexIMGTurnos {
+  height: 50px;
+  width: 50px;
+}
+
+.IndexCuadradoHorario {
+  height: 10%;
+  margin-top: 10px;
+  border-radius: 10%;
+}
+
+.instagram {
+  text-decoration: none;
+  color: #677db7;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .IndexTexto {
+    font-size: 120%;
+  }
+  .IndexContenedorServicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    background-color: #ededed;
+    padding-top: 30px;
+    font-weight: bold;
+  }
+  .IndexBoxServicios {
+    height: 40px;
+    width: 100px;
+    background-image: url(../img/Promos.png);
+    border-radius: 10%;
+    margin: 20px;
+    padding-top: 4px;
+    background-position: center;
+    background-size: cover;
+  }
+  #IndexContainerPromos {
+    margin-top: 0px;
+    display: grid;
+    grid-template-areas: "spas spa2" "spa1 spa3" "otros otros";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    gap: 5px;
+    justify-content: center;
+  }
+  .IndexTurnos {
+    padding-top: 190px;
+  }
+  #IndexSpas {
+    padding-top: 20%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .IndexTexto {
+    font-size: 1rem;
+  }
+  .IndexContenedorInfo {
+    display: inline;
+  }
+  .IndexContainerPromos {
+    grid-template-columns: 100%;
+    grid-template-rows: 25px;
+  }
+  .IndexTurnos {
+    padding-top: 120px;
+  }
+  .IndexDivision {
+    margin-bottom: 0px;
+  }
+}
+.HistoriaPrincipal {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #9CA3DB;
+  border-radius: 1%;
+}
+.HistoriaPrincipal .HistoriaFotoFrente {
+  width: 80%;
+  height: 100%;
+}
+.HistoriaPrincipal .HistoriaTexto {
+  padding-top: 100px;
+  padding-right: 3%;
+}
+
+.HistoriaTitulos {
+  background-color: #ededed;
+  padding: 2% 2%;
+}
+
+.HistoriaContendorValores {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-color: #9CA3DB;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 1%;
+}
+.HistoriaContendorValores .HistoriaCuboValores {
+  margin-top: 10px;
+  border-radius: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.HistoriaContendorValores .HistoriaCuboValores .HistoriaIMGValores {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .HistoriaTexto {
+    padding: 4%;
+  }
+  .HistoriaPrincipal {
+    display: inline-block;
+  }
+  .HistoriaContendorValores {
+    display: inline-block;
+  }
+}
+.ServiciosTitulo {
+  margin-bottom: 1%;
+  background-color: #ededed;
+}
+
+.ServiciosConteiner {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+.ServiciosConteiner .ServiciosCarta {
+  --bs-card-spacer-y: 1rem;
+  --bs-card-spacer-x: 1rem;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-border-width: var(--bs-border-width);
+  --bs-card-border-color: var(--bs-border-color-translucent);
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+  --bs-card-bg: var(--bs-body-bg);
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+.ServiciosConteiner .ServiciosCarta .ServiciosLista {
+  margin: 2% 4%;
+  list-style: none;
+}
+
+.ServiciosTituloPreguntas {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  background-color: #ededed;
+}
+
+.consultoriotituloalquiler {
+  background-color: #ededed;
+  height: 100px;
+  padding-top: 35px;
+}
+
+.consultoriotextoalquiler {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.consultorioofrecemos {
+  margin-top: 30px;
+}
+.consultorioofrecemos .consultoriocontenedoralquiler {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-evenly;
+}
+.consultorioofrecemos .consultoriocontenedoralquiler .consultoriocuadradoalquiler {
+  margin-top: 10px;
+}
+
+.consultoriobotoncontacto {
+  padding: 10px;
+  text-decoration: none;
+  color: #9CA3DB;
+  background-color: #454B66;
+  border-radius: 10%;
+  font-weight: bold;
+}
+
+#consultoriocontainerconsultorios {
+  display: grid;
+  grid-template-areas: "texto1 foto1 foto2 foto3" "texto1 foto4 foto4 foto5" "texto1 foto4 foto4 foto6";
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 15rem 15rem 15rem;
+  margin-top: 30px;
+  margin-bottom: 2%;
+}
+#consultoriocontainerconsultorios #Consultoriotexto1 {
+  grid-area: texto1;
+  text-align: center;
+  padding-top: 250px;
+}
+#consultoriocontainerconsultorios #Consultoriotexto1 .consultoriotexto {
+  list-style: none;
+}
+#consultoriocontainerconsultorios .Consultoriofotocons {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#consultoriocontainerconsultorios #consultoriofoto1 {
+  grid-area: foto1;
+}
+#consultoriocontainerconsultorios #consultoriofoto2 {
+  grid-area: foto2;
+}
+#consultoriocontainerconsultorios #consultoriofoto3 {
+  grid-area: foto3;
+}
+#consultoriocontainerconsultorios #consultoriofoto4 {
+  grid-area: foto4;
+}
+#consultoriocontainerconsultorios #consultoriofoto5 {
+  grid-area: foto5;
+}
+#consultoriocontainerconsultorios #consultoriofoto6 {
+  grid-area: foto6;
+}
+
+@media screen and (max-width: 800px) {
+  #consultoriocontainerconsultorios {
+    display: grid;
+    grid-template-areas: "texto1 texto1 texto1" "foto1 foto2 foto3" "foto4 foto5 foto6";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+    margin-bottom: 2%;
+  }
+  #Consultoriotexto1 {
+    grid-area: texto1;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #consultoriocontainerconsultorios {
+    display: inline;
+  }
+  .consultoriocontenedoralquiler {
+    display: inline;
+  }
+  .ConsultorioDivision {
+    background-color: #677db7;
+    height: 40px;
+    width: 100%;
+  }
+}
+.ContactoTitulo {
+  text-align: center;
+  color: #9CA3DB;
+}
+
+.ContactoFormulario {
+  width: 400px;
+  background-color: #454B66;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  margin-top: 4px;
+  border-radius: 4px;
+  color: #9CA3DB;
+  font-family: Calibri;
+}
+.ContactoFormulario .ContactoItem {
+  width: 100%;
+  background-color: #f7f0f0;
+  padding: 1%;
+  border-radius: 4%;
+  margin-bottom: 1%;
+  border: #677db7 solid 1px;
+}
+
+/*# sourceMappingURL=styles.css.map */

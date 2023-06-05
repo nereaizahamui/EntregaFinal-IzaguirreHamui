@@ -1,0 +1,99 @@
+.consultoriotituloalquiler{
+    background-color: #ededed;
+    height: 100px;
+    padding-top: 35px;
+}   
+.consultoriotextoalquiler{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.consultorioofrecemos{
+    margin-top: 30px;
+    .consultoriocontenedoralquiler{
+        display: flex;
+        padding-top: 10px;
+        justify-content: space-evenly;
+        .consultoriocuadradoalquiler{
+            margin-top: 10px;
+        }
+    }
+
+}
+.consultoriobotoncontacto{
+    padding: 10px;
+    text-decoration: none;
+    color:#9CA3DB;
+    background-color: #454B66;
+    border-radius: 10%;
+    font-weight: bold;
+}
+#consultoriocontainerconsultorios{
+    display: grid;
+    grid-template-areas:
+    "texto1 foto1 foto2 foto3"
+    "texto1 foto4 foto4 foto5"
+    "texto1 foto4 foto4 foto6";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 15rem 15rem 15rem;
+    margin-top: 30px;
+    margin-bottom: 2%;
+    #Consultoriotexto1{
+        grid-area: texto1;
+        
+        text-align: center;
+        padding-top: 250px;
+        .consultoriotexto{
+            list-style: none;
+        }
+    }
+    .Consultoriofotocons{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+    }
+    #consultoriofoto1{
+        grid-area: foto1;
+    }
+    #consultoriofoto2{
+        grid-area: foto2;
+    }
+    #consultoriofoto3{
+        grid-area: foto3;
+    }
+    #consultoriofoto4{
+        grid-area: foto4;
+    }
+    #consultoriofoto5{
+        grid-area: foto5;
+    }
+    #consultoriofoto6{
+        grid-area: foto6;
+    }
+}
+@media screen and (max-width:800px){
+    #consultoriocontainerconsultorios{
+        display: grid;
+        grid-template-areas:
+        "texto1 texto1 texto1"
+        "foto1 foto2 foto3"
+        "foto4 foto5 foto6";
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto auto auto;
+        margin-bottom: 2%;}
+    #Consultoriotexto1{
+        grid-area: texto1;
+        text-align: center;
+        padding-top: 10px;}
+}
+@media screen and (max-width:500px){
+    #consultoriocontainerconsultorios{
+        display:inline;}
+    .consultoriocontenedoralquiler{
+        display:inline;
+        }
+    .ConsultorioDivision{
+        background-color: #677db7;
+        height: 40px;
+        width: 100%;
+    }
+}

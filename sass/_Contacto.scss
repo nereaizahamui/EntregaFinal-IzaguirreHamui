@@ -1,0 +1,23 @@
+.ContactoTitulo{
+    text-align: center;
+    color: #9CA3DB;   
+}
+.ContactoFormulario{
+    width: 400px;
+    background-color: #454B66;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color:#9CA3DB;
+    font-family: Calibri; 
+    .ContactoItem{
+        width: 100%;
+        background-color: #f7f0f0;
+        padding: 1%;
+        border-radius: 4%;
+        margin-bottom: 1%;
+        border:#677db7 solid 1px
+    }
+}
