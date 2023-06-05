@@ -90,10 +90,12 @@
         text-decoration: none;
         color: white;
         font-size: 130%;
+        &:hover{
+            font-weight: bold;
+            color:#454B66
+        }
     }
 }
-
-
 .IndexTituloTurnos{
     margin-top: 35px;
 }
@@ -117,6 +119,10 @@
     text-decoration: none;
     color: #677db7;
     text-align: center;
+    &:hover{
+        font-weight: bold;
+        color:#454B66
+    }
 }
 @media screen and (max-width:800px){
     .IndexTexto{
