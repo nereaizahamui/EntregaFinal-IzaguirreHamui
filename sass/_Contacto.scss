@@ -20,4 +20,9 @@
         margin-bottom: 1%;
         border:#677db7 solid 1px
     }
+    .ContactoBoton{
+        @extend .ContactoItem;
+        background-color: #677db7;
+        color: white
+    }
 }

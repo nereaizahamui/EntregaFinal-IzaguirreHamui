@@ -508,13 +508,17 @@ header {
   color: #9CA3DB;
   font-family: Calibri;
 }
-.ContactoFormulario .ContactoItem {
+.ContactoFormulario .ContactoItem, .ContactoFormulario .ContactoBoton {
   width: 100%;
   background-color: #f7f0f0;
   padding: 1%;
   border-radius: 4%;
   margin-bottom: 1%;
   border: #677db7 solid 1px;
+}
+.ContactoFormulario .ContactoBoton {
+  background-color: #677db7;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */
