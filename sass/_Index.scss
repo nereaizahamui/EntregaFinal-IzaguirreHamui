@@ -4,11 +4,10 @@
     background-image: url(../img/cara.jpg);
     background-position: center;
     background-size: cover;
-    .IndexFoto1{
-        width: 50%;
-    }
 }
-
+.IndexFoto1{
+    width: 50%;
+}
 .IndexTexto{
     padding: 2% 10%;
     font-size: 1.5rem;
@@ -24,7 +23,7 @@
     .IndexBoxServicios{
         height: 120px;
         width: 200px;
-        background-image: url(../img/Promos.png);
+        background-image: url (./img/cara.jpg);
         border-radius: 10%;
         margin: 20px;
         padding-top: 40px;
@@ -32,7 +31,6 @@
         background-size: cover;
     }
 }
-
 .IndexDivision{
     background-color:#677db7;
     padding-top: 1%;
@@ -40,7 +38,6 @@
     font-size: larger;
     font-weight: 500;
 }
-
 #IndexContainerPromos{
     padding-top: 5px;
     display: grid;
@@ -57,6 +54,9 @@
         background-color: #9CA3DB;
         color: #454B66;
         padding-top:55%;
+    }
+    #IndexSpas:hover {
+        transform: scale(1.5);
     }
     #IndexSpa1{
         grid-area: spa1;
@@ -166,7 +166,8 @@
     }
     #IndexSpas{
         padding-top:20%;
-    }}
+    }
+}
 @media screen and (max-width:500px){
     .IndexTexto{
         font-size: 1rem;}

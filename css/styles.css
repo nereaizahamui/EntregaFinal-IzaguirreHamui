@@ -164,6 +164,9 @@ header {
   color: #454B66;
   padding-top: 55%;
 }
+#IndexContainerPromos #IndexSpas:hover {
+  transform: scale(1.5);
+}
 #IndexContainerPromos #IndexSpa1 {
   grid-area: spa1;
   background-image: url(../img/spa2.jpg);
@@ -492,12 +495,14 @@ header {
     width: 100%;
   }
 }
-.ContactoTitulo {
+.ContactoFondo {
+  background: linear-gradient(180deg, rgb(97, 109, 199) 0%, rgb(153, 175, 233) 46%, rgb(36, 57, 215) 100%);
+}
+.ContactoFondo .ContactoTitulo {
   text-align: center;
   color: #9CA3DB;
 }
-
-.ContactoFormulario {
+.ContactoFondo .ContactoFormulario {
   width: 400px;
   background-color: #454B66;
   padding: 30px;
@@ -508,7 +513,7 @@ header {
   color: #9CA3DB;
   font-family: Calibri;
 }
-.ContactoFormulario .ContactoItem, .ContactoFormulario .ContactoBoton {
+.ContactoFondo .ContactoFormulario .ContactoItem, .ContactoFondo .ContactoFormulario .ContactoBoton {
   width: 100%;
   background-color: #f7f0f0;
   padding: 1%;
@@ -516,9 +521,9 @@ header {
   margin-bottom: 1%;
   border: #677db7 solid 1px;
 }
-.ContactoFormulario .ContactoBoton {
+.ContactoFondo .ContactoFormulario .ContactoBoton {
   background-color: #677db7;
-  color: white;
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */
