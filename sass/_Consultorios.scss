@@ -17,7 +17,6 @@
             margin-top: 10px;
         }
     }
-
 }
 .consultoriobotoncontacto{
     padding: 10px;
@@ -37,9 +36,9 @@
     grid-template-rows: 15rem 15rem 15rem;
     margin-top: 30px;
     margin-bottom: 2%;
+    gap: 1px;
     #Consultoriotexto1{
         grid-area: texto1;
-        
         text-align: center;
         padding-top: 250px;
         .consultoriotexto{
