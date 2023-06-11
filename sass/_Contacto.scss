@@ -1,31 +1,45 @@
 .ContactoFondo{
     background: linear-gradient(180deg, rgb(95, 34, 136) 0%, rgba(153,175,233,1) 46%, rgba(36,57,215,1) 100%);
-    .ContactoTitulo{
+    .ContactoGrilla{
+        display: flex;
+        margin-left: 5%;
         text-align: center;
-        color: #9CA3DB;   
-    }
-    .ContactoFormulario{
-        width: 400px;
-        background-color: #454B66;
-        padding: 30px;
-        margin: auto;
-        margin-top: 100px;
-        margin-top: 4px;
-        border-radius: 4px;
-        color:#9CA3DB;
-        font-family: Calibri; 
-        .ContactoItem{
-            width: 100%;
-            background-color: #f7f0f0;
-            padding: 1%;
+        margin-bottom: 3%;
+        .ContactoTitulo{
+            text-align: center;
+            color: #9CA3DB;   
+        }
+        .ContactoFormulario{
+            margin-top: 3%;
+            width: 550px;
+            background-color: #454B66;
+            padding: 30px;
+            border-radius: 4px;
+            color:#9CA3DB;
+            font-family: Calibri; 
             border-radius: 4%;
-            margin-bottom: 1%;
-            border:#677db7 solid 1px
+            .ContactoItem{
+                width: 100%;
+                background-color: #f7f0f0;
+                padding: 1%;
+                border-radius: 4%;
+                margin-bottom: 1%;
+                border:#677db7 solid 1px
+            }
+            .ContactoBoton{
+                @extend .ContactoItem;
+                background-color: #677db7;
+                color: black;
+                margin-top: 2%;
+                height: 40px;
+            }
         }
-        .ContactoBoton{
-            @extend .ContactoItem;
-            background-color: #677db7;
-            color: black
+        .ContactoImagen{
+            margin-top: 3%;
+            width: 70%;
+            height: 94%;
+            border-radius: 4%;
         }
     }
+    
 }

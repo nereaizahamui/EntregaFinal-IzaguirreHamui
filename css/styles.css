@@ -13,11 +13,6 @@
   color: #677db7;
 }
 
-footer {
-  background-color: #454B66;
-  height: 10vh;
-}
-
 .color1 {
   color: #9CA3DB;
 }
@@ -163,10 +158,10 @@ header {
   background-color: #9CA3DB;
   color: #454B66;
   padding-top: 55%;
-  transition: transform 2s;
+  transition: transform 1.3s;
 }
 #IndexContainerPromos #IndexSpas:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 #IndexContainerPromos #IndexSpa1 {
   grid-area: spa1;
@@ -174,10 +169,10 @@ header {
   padding-top: 22%;
   background-position: center;
   background-size: cover;
-  transition: transform 2s;
+  transition: transform 1.3s;
 }
 #IndexContainerPromos #IndexSpa1:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 #IndexContainerPromos #IndexSpa2 {
   grid-area: spa2;
@@ -185,10 +180,10 @@ header {
   padding-top: 22%;
   background-position: center;
   background-size: cover;
-  transition: transform 2s;
+  transition: transform 1.3s;
 }
 #IndexContainerPromos #IndexSpa2:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 #IndexContainerPromos #IndexSpa3 {
   grid-area: spa3;
@@ -196,10 +191,10 @@ header {
   padding-top: 22%;
   background-position: center;
   background-size: cover;
-  transition: transform 2s;
+  transition: transform 1.3s;
 }
 #IndexContainerPromos #IndexSpa3:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 #IndexContainerPromos #IndexOtrosSpas {
   grid-area: otros;
@@ -207,10 +202,10 @@ header {
   padding-top: 22%;
   background-position: center;
   background-size: cover;
-  transition: transform 2s;
+  transition: transform 1.3s;
 }
 #IndexContainerPromos #IndexOtrosSpas:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
 #IndexContainerPromos .IndexTextoSpa {
   text-decoration: none;
@@ -269,15 +264,10 @@ header {
     padding-top: 30px;
     font-weight: bold;
   }
-  .IndexBoxServicios {
-    height: 40px;
-    width: 100px;
-    background-image: url(../img/Promos.png);
-    border-radius: 10%;
-    margin: 20px;
-    padding-top: 4px;
-    background-position: center;
-    background-size: cover;
+  .IndexContenedorServicios .IndexBoxServicios {
+    width: 120px;
+    height: 90px;
+    padding-top: 30px;
   }
   #IndexContainerPromos {
     margin-top: 0px;
@@ -453,6 +443,8 @@ header {
   margin-top: 30px;
   margin-bottom: 2%;
   gap: 1px;
+  margin-left: 15px;
+  margin-right: 30px;
 }
 #consultoriocontainerconsultorios #Consultoriotexto1 {
   grid-area: texto1;
@@ -516,22 +508,27 @@ header {
 .ContactoFondo {
   background: linear-gradient(180deg, rgb(95, 34, 136) 0%, rgb(153, 175, 233) 46%, rgb(36, 57, 215) 100%);
 }
-.ContactoFondo .ContactoTitulo {
+.ContactoFondo .ContactoGrilla {
+  display: flex;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.ContactoFondo .ContactoGrilla .ContactoTitulo {
   text-align: center;
   color: #9CA3DB;
 }
-.ContactoFondo .ContactoFormulario {
-  width: 400px;
+.ContactoFondo .ContactoGrilla .ContactoFormulario {
+  margin-top: 3%;
+  width: 550px;
   background-color: #454B66;
   padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  margin-top: 4px;
   border-radius: 4px;
   color: #9CA3DB;
   font-family: Calibri;
+  border-radius: 4%;
 }
-.ContactoFondo .ContactoFormulario .ContactoItem, .ContactoFondo .ContactoFormulario .ContactoBoton {
+.ContactoFondo .ContactoGrilla .ContactoFormulario .ContactoItem, .ContactoFondo .ContactoGrilla .ContactoFormulario .ContactoBoton {
   width: 100%;
   background-color: #f7f0f0;
   padding: 1%;
@@ -539,9 +536,23 @@ header {
   margin-bottom: 1%;
   border: #677db7 solid 1px;
 }
-.ContactoFondo .ContactoFormulario .ContactoBoton {
+.ContactoFondo .ContactoGrilla .ContactoFormulario .ContactoBoton {
   background-color: #677db7;
   color: black;
+  margin-top: 2%;
+  height: 40px;
+}
+.ContactoFondo .ContactoGrilla .ContactoImagen {
+  margin-top: 3%;
+  width: 70%;
+  height: 94%;
+  border-radius: 4%;
+}
+
+footer {
+  background-color: #454B66;
+  height: 10vh;
+  padding-top: 2%;
 }
 
 /*# sourceMappingURL=styles.css.map */
