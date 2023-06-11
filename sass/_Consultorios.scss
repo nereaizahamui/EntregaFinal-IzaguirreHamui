@@ -72,6 +72,7 @@
     }
 }
 @media screen and (max-width:800px){
+    
     #consultoriocontainerconsultorios{
         display: grid;
         grid-template-areas:
@@ -85,13 +86,14 @@
         grid-area: texto1;
         text-align: center;
         padding-top: 10px;}
+    .consultoriocontenedoralquiler{
+        display:inline;
+        }
 }
 @media screen and (max-width:500px){
     #consultoriocontainerconsultorios{
         display:inline;}
-    .consultoriocontenedoralquiler{
-        display:inline;
-        }
+
     .ConsultorioDivision{
         background-color: #677db7;
         height: 40px;

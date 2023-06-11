@@ -116,6 +116,7 @@ header {
 }
 
 .IndexContenedorServicios {
+  font-weight: bold;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -279,11 +280,11 @@ header {
     gap: 5px;
     justify-content: center;
   }
+  #IndexContainerPromos #IndexSpas {
+    padding-top: 20%;
+  }
   .IndexTurnos {
     padding-top: 190px;
-  }
-  #IndexSpas {
-    padding-top: 20%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -349,11 +350,12 @@ header {
 }
 
 @media screen and (max-width: 800px) {
-  .HistoriaTexto {
-    padding: 4%;
-  }
   .HistoriaPrincipal {
     display: inline-block;
+    padding-top: 3%;
+  }
+  .HistoriaPrincipal .HistoriaTexto {
+    padding: 30px 3% 20px 3%;
   }
   .HistoriaContendorValores {
     display: inline-block;
@@ -491,12 +493,12 @@ header {
     text-align: center;
     padding-top: 10px;
   }
+  .consultoriocontenedoralquiler {
+    display: inline;
+  }
 }
 @media screen and (max-width: 500px) {
   #consultoriocontainerconsultorios {
-    display: inline;
-  }
-  .consultoriocontenedoralquiler {
     display: inline;
   }
   .ConsultorioDivision {

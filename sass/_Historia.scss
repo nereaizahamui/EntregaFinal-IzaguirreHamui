@@ -40,11 +40,12 @@
     }
 }
 @media screen and (max-width:800px){
-    .HistoriaTexto{
-        padding: 4%;
-    }
     .HistoriaPrincipal{
         display: inline-block;
+        padding-top: 3%;
+        .HistoriaTexto{
+            padding: 30px 3% 20px 3%;
+        }
     }
     .HistoriaContendorValores{
         display:inline-block;

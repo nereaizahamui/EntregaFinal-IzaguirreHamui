@@ -13,6 +13,7 @@
     font-size: 1.5rem;
 }
 .IndexContenedorServicios{
+    font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -158,9 +159,8 @@
             width: 120px;
             height: 90px;
             padding-top: 30px;
-        }    
+        } 
     }
-
     #IndexContainerPromos{
         margin-top: 0px;
         display: grid;
@@ -173,12 +173,12 @@
         text-align: center;
         gap: 5px;
         justify-content: center;
+        #IndexSpas{
+            padding-top:20%;
+        }
     }
     .IndexTurnos{
         padding-top: 190px;
-    }
-    #IndexSpas{
-        padding-top:20%;
     }
 }
 @media screen and (max-width:500px){
