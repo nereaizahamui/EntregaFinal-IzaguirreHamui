@@ -481,6 +481,13 @@ header {
 }
 
 @media screen and (max-width: 800px) {
+  .consultorioofrecemos .consultoriocontenedoralquiler {
+    display: inline;
+  }
+  .consultorioofrecemos .consultoriocontenedoralquiler .consultoriocuadradoalquiler .ConsultoriosIconos {
+    width: 60px;
+    height: 60px;
+  }
   #consultoriocontainerconsultorios {
     display: grid;
     grid-template-areas: "texto1 texto1 texto1" "foto1 foto2 foto3" "foto4 foto5 foto6";
@@ -488,10 +495,8 @@ header {
     grid-template-rows: auto auto auto;
     margin-bottom: 2%;
   }
-  #Consultoriotexto1 {
-    grid-area: texto1;
-    text-align: center;
-    padding-top: 10px;
+  #consultoriocontainerconsultorios #Consultoriotexto1 {
+    padding-top: 20px;
   }
   .consultoriocontenedoralquiler {
     display: inline;
@@ -528,7 +533,6 @@ header {
   border-radius: 4px;
   color: #9CA3DB;
   font-family: Calibri;
-  border-radius: 4%;
 }
 .ContactoFondo .ContactoGrilla .ContactoFormulario .ContactoItem, .ContactoFondo .ContactoGrilla .ContactoFormulario .ContactoBoton {
   width: 100%;
@@ -549,6 +553,25 @@ header {
   width: 70%;
   height: 94%;
   border-radius: 4%;
+}
+@media screen and (max-width: 800px) {
+  .ContactoFondo .ContactoGrilla .ContactoImagen {
+    width: 60%;
+    height: 50%;
+    margin-top: 40%;
+  }
+  .ContactoFondo .ContactoGrilla .ContactoFormulario {
+    width: 150%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .ContactoFondo .ContactoGrilla .ContactoImagen {
+    display: none;
+  }
+  .ContactoFondo .ContactoGrilla .ContactoFormulario {
+    margin-right: 3%;
+    margin-left: -3%;
+  }
 }
 
 footer {

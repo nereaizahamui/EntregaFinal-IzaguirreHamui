@@ -72,7 +72,17 @@
     }
 }
 @media screen and (max-width:800px){
-    
+    .consultorioofrecemos{
+        .consultoriocontenedoralquiler{
+            display: inline;
+            .consultoriocuadradoalquiler{
+                .ConsultoriosIconos{
+                    width: 60px;
+                    height: 60px;
+                }
+            }
+        }
+    }
     #consultoriocontainerconsultorios{
         display: grid;
         grid-template-areas:
@@ -82,10 +92,9 @@
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: auto auto auto;
         margin-bottom: 2%;}
-    #Consultoriotexto1{
-        grid-area: texto1;
-        text-align: center;
-        padding-top: 10px;}
+    #consultoriocontainerconsultorios #Consultoriotexto1{
+    padding-top: 20px;
+    }
     .consultoriocontenedoralquiler{
         display:inline;
         }

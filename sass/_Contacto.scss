@@ -17,7 +17,6 @@
             border-radius: 4px;
             color:#9CA3DB;
             font-family: Calibri; 
-            border-radius: 4%;
             .ContactoItem{
                 width: 100%;
                 background-color: #f7f0f0;
@@ -39,6 +38,26 @@
             width: 70%;
             height: 94%;
             border-radius: 4%;
+        }
+        @media screen and (max-width:800px){
+            .ContactoImagen{
+                width: 60%;
+                height: 50%;
+                margin-top: 40%;
+            }
+            .ContactoFormulario{
+                width: 150%;
+            }
+        }
+        @media screen and (max-width:650px){
+            .ContactoImagen{
+                display: none;
+            }
+            .ContactoFormulario{
+                margin-right: 3%;
+                margin-left: -3%;
+            }
+            
         }
     }
     
