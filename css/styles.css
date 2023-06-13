@@ -339,6 +339,7 @@ header {
   border-radius: 1%;
 }
 .HistoriaContendorValores .HistoriaCuboValores {
+  width: 35%;
   margin-top: 10px;
   border-radius: 10%;
   padding-left: 10%;
@@ -359,6 +360,9 @@ header {
   }
   .HistoriaContendorValores {
     display: inline-block;
+  }
+  .HistoriaContendorValores .HistoriaCuboValores {
+    width: auto;
   }
 }
 .ServiciosTitulo {
@@ -397,6 +401,7 @@ header {
 .ServiciosConteiner .ServiciosCarta .ServiciosLista {
   margin: 2% 4%;
   list-style: none;
+  padding: 0;
 }
 
 .ServiciosTituloPreguntas {
@@ -433,7 +438,7 @@ header {
   text-decoration: none;
   color: #9CA3DB;
   background-color: #454B66;
-  border-radius: 10%;
+  border-radius: 7%;
   font-weight: bold;
 }
 
@@ -481,12 +486,21 @@ header {
 }
 
 @media screen and (max-width: 800px) {
+  .consultoriotextoalquiler {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   .consultorioofrecemos .consultoriocontenedoralquiler {
     display: inline;
   }
   .consultorioofrecemos .consultoriocontenedoralquiler .consultoriocuadradoalquiler .ConsultoriosIconos {
     width: 60px;
     height: 60px;
+  }
+  .ConsultorioDivision {
+    background-color: #677db7;
+    height: 10px;
+    width: 100%;
   }
   #consultoriocontainerconsultorios {
     display: grid;
@@ -496,7 +510,7 @@ header {
     margin-bottom: 2%;
   }
   #consultoriocontainerconsultorios #Consultoriotexto1 {
-    padding-top: 20px;
+    padding-top: 5px;
   }
   .consultoriocontenedoralquiler {
     display: inline;
@@ -506,10 +520,8 @@ header {
   #consultoriocontainerconsultorios {
     display: inline;
   }
-  .ConsultorioDivision {
-    background-color: #677db7;
-    height: 40px;
-    width: 100%;
+  .Consultoriofotocons {
+    margin: 1% 1% 1% 1%;
   }
 }
 .ContactoFondo {
@@ -556,18 +568,13 @@ header {
 }
 @media screen and (max-width: 800px) {
   .ContactoFondo .ContactoGrilla .ContactoImagen {
-    width: 60%;
-    height: 50%;
-    margin-top: 40%;
-  }
-  .ContactoFondo .ContactoGrilla .ContactoFormulario {
-    width: 150%;
-  }
-}
-@media screen and (max-width: 650px) {
-  .ContactoFondo .ContactoGrilla .ContactoImagen {
     display: none;
   }
+  .ContactoFondo .ContactoGrilla .ContactoFormulario {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 500px) {
   .ContactoFondo .ContactoGrilla .ContactoFormulario {
     margin-right: 3%;
     margin-left: -3%;

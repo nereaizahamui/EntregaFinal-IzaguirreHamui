@@ -41,23 +41,17 @@
         }
         @media screen and (max-width:800px){
             .ContactoImagen{
-                width: 60%;
-                height: 50%;
-                margin-top: 40%;
-            }
-            .ContactoFormulario{
-                width: 150%;
-            }
-        }
-        @media screen and (max-width:650px){
-            .ContactoImagen{
                 display: none;
             }
+            .ContactoFormulario{
+                margin-left: 10%;
+            }
+        }
+        @media screen and (max-width:500px){
             .ContactoFormulario{
                 margin-right: 3%;
                 margin-left: -3%;
             }
-            
         }
     }
     

@@ -23,7 +23,7 @@
     text-decoration: none;
     color:#9CA3DB;
     background-color: #454B66;
-    border-radius: 10%;
+    border-radius: 7%;
     font-weight: bold;
 }
 #consultoriocontainerconsultorios{
@@ -72,6 +72,10 @@
     }
 }
 @media screen and (max-width:800px){
+    .consultoriotextoalquiler{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     .consultorioofrecemos{
         .consultoriocontenedoralquiler{
             display: inline;
@@ -83,6 +87,11 @@
             }
         }
     }
+    .ConsultorioDivision{
+        background-color: #677db7;
+        height: 10px;
+        width: 100%;
+    }
     #consultoriocontainerconsultorios{
         display: grid;
         grid-template-areas:
@@ -93,7 +102,7 @@
         grid-template-rows: auto auto auto;
         margin-bottom: 2%;}
     #consultoriocontainerconsultorios #Consultoriotexto1{
-    padding-top: 20px;
+    padding-top: 5px;
     }
     .consultoriocontenedoralquiler{
         display:inline;
@@ -101,11 +110,9 @@
 }
 @media screen and (max-width:500px){
     #consultoriocontainerconsultorios{
-        display:inline;}
-
-    .ConsultorioDivision{
-        background-color: #677db7;
-        height: 40px;
-        width: 100%;
+        display:inline;
+    }
+    .Consultoriofotocons{
+        margin: 1% 1% 1% 1%;
     }
 }

@@ -29,6 +29,7 @@
     margin-right: 10%;
     border-radius: 1%;
     .HistoriaCuboValores{
+        width: 35%;
         margin-top: 10px;
         border-radius: 10%;
         padding-left: 10%;
@@ -49,5 +50,8 @@
     }
     .HistoriaContendorValores{
         display:inline-block;
+        .HistoriaCuboValores{
+            width: auto;
+        }
     }}
     
