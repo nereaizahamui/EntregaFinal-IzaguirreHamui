@@ -10,15 +10,20 @@
     background-color: #454B66;
     color: #677db7;
 }
-// paleta de colores//  
+// Variables // 
+$color1: #9CA3DB;
+$color2:  #677db7;
+$color3: #454B66;
+
+// paleta de colores// 
 .color1{
-    color:#9CA3DB;
+    color: $color1;
 }
 .color2{
-    color: #677db7;
+    color: $color2;
 }
 .color3{
-    color:#454B66;
+    color:$color3;
 }
 .negrita{
     font-weight:bold;
